@@ -1,0 +1,84 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "booking",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "currentStatuses",
+				"outputs": [
+					{
+						"internalType": "enum HotelBooking.Statuses",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address payable",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Original_Consracts/HotelBookingApp.sol": "HotelBooking"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Original_Consracts/HotelBookingApp.sol": {
+			"keccak256": "0x944ca0b0ede862de6ede5c627a96c3c3ed62fb26d1d6a29185367f47f76bb812",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2a8d76e9f8d080c2c4b871b91cd2264e757616c4282fac3723f6778da2771c5d",
+				"dweb:/ipfs/QmYwwR4RehXgNneCYyJs7ha2yR5HAvtVCRrDUBEgs9Gm4U"
+			]
+		}
+	},
+	"version": 1
+}
